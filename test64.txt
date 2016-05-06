@@ -1,0 +1,5 @@
+IF( isGeolumenEqualStatus(LuxGeolumenNodes[tmpIndex].desideredState,LuxGeolumenNodes[tmpIndex].feedbackState)=FALSE) THEN
+
+	LogEv(EL_Alarm,EO_LUX,LuxGeolumenNodes[tmpIndex].ID_Lux,14,MsgRecBufferPtr^[ArrayPos].Msg);
+
+END_IF
